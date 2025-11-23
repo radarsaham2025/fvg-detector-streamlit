@@ -76,7 +76,7 @@ def detect_fvg(df):
     return pd.DataFrame(fvg_list)
 
 # ========= STREAMLIT UI =========
-ticker_input = st.text_input("Kode saham (4 huruf, contoh BBCA, BULL)").upper()
+ticker_input = st.text_input("Input Kode saham (contoh : MDKA, PSAB)").upper()
 last_days = st.number_input("Last berapa days", min_value=5, max_value=200, value=30)
 
 if st.button("🔍 Proses FVG"):
