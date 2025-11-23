@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
-st.title("📊 FVG Detector - Tanpa License (Streamlit Web Version)")
+st.title("📊 FVG Detector")
 
 # ========= FETCH DATA =========
 def fetch_data(ticker_input, last_days):
